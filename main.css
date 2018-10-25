@@ -1,0 +1,319 @@
+body {
+
+
+    background: grey;
+    font-family: Helvetica;
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+
+}
+
+nav {
+
+    background: grey;
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    background: black;
+    text-align: center;
+
+
+}
+
+
+
+nav a:hover {
+
+    background-color: azure;
+    color: black;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+
+    }
+
+
+    nav li {
+        flex: 1 1 0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+}
+
+
+.box {
+
+
+    background: white;
+    flex-direction: wrap;
+
+
+}
+
+
+.one {
+
+    background: red;
+    background-image: url("design2_image1.jpg");
+    flex-basis: 300px;
+    border-radius: 4px;
+    opacity: 0, 5;
+    filter: alpha(opacity=50);
+
+
+
+
+
+
+}
+
+.two {
+
+
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+
+
+
+}
+
+.three {
+
+    background: ;
+    ;
+    width: 70%;
+    max-height: auto;
+
+
+
+
+}
+
+
+.logo {
+    background-image: url(nysl_logo.png);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: -40px;
+    top: 30px;
+
+
+
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+
+}
+
+.four {
+
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    height: 20px;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.subtitles {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.content {
+    margin-left: 50px;
+    margin-top: ;
+    font-size: 25px
+}
+
+.table_tle {
+    text-align: center;
+}
+
+
+
+th {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+    border: solid 1px;
+}
+
+.borders {
+    background-color: darkred;
+}
+
+.table2 {
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color:
+}
+
+.table_map {
+    margin-top: 50px;
+    border: solid;
+    border-style: dotted;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.table {
+    margin-top: 50px;
+    border: solid;
+    border-style: dotted;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.table_title {
+    background: darkred;
+}
+
+.title_pp {
+    text-align: center;
+    background-color: darkred;
+}
+
+.all_cont {
+    margin-left: 40px;
+    border: solid;
+    border-style: dotted;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.test {
+    display: block;
+    margin-top: 30px;
+}
+
+.flex-outer,
+.flex-inner {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flex-outer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-inner {
+    padding: 10 18px;
+    justify-content: space-between;
+}
+
+.flex-outer > li:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+    flex: 1 0 220px;
+    border: solid 1px;
+    border-style: dotted;
+
+}
+
+.flex-outer li p {
+    margin: 0;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+    padding: 5px;
+    border: none;
+    background-color: darkgray;
+    border: solid 1px;
+
+}
+
+.flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+}
+
+.flex-inner li {
+    width: 100px;
+}
+
+
+
+.return_table th,
+tr,
+td {
+    border: solid;
+
+}
+
+.return_table {
+    margin-top: 30px
+}

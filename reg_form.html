@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <script type="text/javascript" src="validate.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+
+
+
+
+
+    <!--- <script>
+    
+    function validateForm()                                    
+{ 
+    var name = document.forms["form"]["first-name"];           
+    var last = document.forms["form"]["last-name"]; 
+    var city = document.forms["form"]["address"];
+    var zip = document.forms["form"]["zipcode"]; 
+    var date = document.forms["form"]["b_day"]; 
+    var phone = document.forms["form"]["email"];  
+    var what =  document.forms["form"]["last-name"];  
+    var password = document.forms["form"]["city"];  
+    var address = document.forms["form"]["signature"];
+    var phone = document.forms["form"]["tel"];
+    var pname = document.forms["form"]["pname"]; 
+    ErrorText= "";  
+
+    
+  if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+   
+    if (last.value == "")                               
+    { 
+        window.alert("Please enter your Last Name."); 
+        name.focus(); 
+        return false; 
+    } 
+       
+    if (city.value == "")                               
+    { 
+        window.alert("Please enter your  City."); 
+        name.focus(); 
+        return false; 
+    } 
+    
+    if (zip.value == "")                               
+    { 
+        window.alert("Please enter your Zip Code."); 
+        name.focus(); 
+        return false; 
+    } 
+    
+    
+     if (date.value == "")                               
+    { 
+        window.alert("Please enter your birth date."); 
+        name.focus(); 
+        return false; 
+    } 
+    
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+    
+  
+    
+      if (ErrorText= "") { form.submit() }
+    
+  
+     if ( ( form.gender[0].checked == false ) && ( form.gender[1].checked == false ) ) 
+    {
+     alert ( "Please choose your Gender: Male or Female" ); 
+     return false;
+     }  
+    
+    
+    
+     
+    
+     
+     if ( ( form.position[0].checked == false ) && ( form.position[1].checked == false ) && ( form.position[2].checked == false ) && ( form.position[3].checked == false ))
+     {
+     alert ( "Please choose your Position" ); 
+     return false;
+     }
+    
+    
+    
+    
+      if ( ( form.position2[0].checked == false ) && ( form.position2[1].checked == false ) && ( form.position2[2].checked == false ) && ( form.position2[3].checked == false ))
+     {
+     alert ( "Please choose your perferable Position" ); 
+     return false;
+     }
+     
+      if ( ( form.position2[0].checked == false ) && ( form.position2[1].checked == false ) && ( form.position2[2].checked == false ) && ( form.position2[3].checked == false ))
+     {
+     alert ( "Please choose your perferable Position" ); 
+     return false;
+     }
+     
+ 
+ 
+  
+    
+      if ( ( form.size[0].checked == false ) && ( form.size[1].checked == false ) && ( form.size[2].checked == false ) && ( form.size[3].checked == false )&& ( form.size[4].checked == false )&& ( form.size[5].checked == false )&& ( form.size[6].checked == false ))
+     {
+     alert ( "Please choose your Jersey Size" ); 
+     return false;
+     }   
+    
+    
+    
+    if ( ( form.size1[0].checked == false ) && ( form.size1[1].checked == false ) && ( form.size1[2].checked == false ) && ( form.size1[3].checked == false )&& ( form.size1[4].checked == false )&& ( form.size1[5].checked == false )&& ( form.size1[6].checked == false ))
+     {
+     alert ( "Please choose your Short Size" ); 
+     return false;
+     }   
+    
+   
+   if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (phone.value == "")                           
+    { 
+        window.alert("Please enter your telephone number."); 
+        phone.focus(); 
+        return false; 
+    } 
+      
+    
+      var e = document.getElementById("school");
+      var strUser = e.options[e.selectedIndex].value;
+      //if you need text to be compared then use
+      var strUser1 = e.options[e.selectedIndex].text;
+      if(strUser==0) //for text use if(strUser1=="Select")
+      {
+      alert("Please select your School");
+    }
+     
+    
+    
+      if(document.getElementById("school").value == "0")
+   {
+      alert("Please choose your school"); // prompt user
+      document.getElementById("school").focus(); //set focus back to control
+      return false;
+   }
+    
+    
+      if(document.getElementById("uniform").value == "none")
+   {
+      alert("Please select if you have a uniform"); // prompt user
+      document.getElementById("uniform").focus(); //set focus back to control
+      return false;
+   }
+    
+       
+  if (pname.value == "")                                  
+    { 
+        window.alert("Please enter your Parent's name."); 
+        name.focus(); 
+        return false; 
+    } 
+   
+       
+    
+    
+    
+    return true; 
+}
+        
+        
+        
+       
+        </script> ---->
+
+
+
+
+
+
+
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="schedule_maps.html">Schedule</a></li>
+                <li> <a href="Policies.html">Policy</a></li>
+                <li> <a href="reg_form.html">Registration Form</a></li>
+                <li> <a href="About.html">About us</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="box one">
+
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="box two">
+                <div class="logo"></div>
+
+
+            </div>
+
+
+
+            <div class="box three">
+                <form name="form" onsubmit="return validateForm()" method="GET" action="test.html">
+                    <ul class="flex-outer">
+
+
+                        <li class="test">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" placeholder="Enter your first name here" name="First Name">
+                        </li>
+
+
+
+                        <li class="test">
+                            <label for="LastName">Last Name</label>
+                            <input type="text" id="last-name" placeholder="Enter your last name here" name="last-name">
+                        </li>
+
+
+                        <li class="test">
+                            <label for="email">Street Address</label>
+                            <input type="text" id="address" placeholder="Enter your city here" name="address">
+                        </li>
+                        <li class="test">
+                            <label for="ZipCode">ZipCode</label>
+                            <input type="text" id="ZipCode" placeholder="Enter your ZipCode here" name="zipcode">
+                        </li>
+                        <li class="test">
+                            <label for="b_day">Birth Date</label>
+                            <input type="date" id="b_day" name="BirthDate">
+                        </li>
+                        <li class="test">
+                            <p>Age</p>
+                            <ul class="flex-inner">
+                                <li class="test">
+                                    <input type="checkbox" id="male" name="gender">
+                                    <label for="male">male</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="female" name="gender">
+                                    <label for="female">female</label>
+                                </li>
+
+                                <li class="test">
+                                    <input type="checkbox" id="other" name="gender">
+                                    <label for="other">Other</label>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="test">
+                            <label for="tel">Contact Phone</label>
+                            <input type="text" id="tel" placeholder="Enter your tel here" name="tel">
+                        </li>
+                        <li class="test">
+                            <label for="pname">Parent/Guardian</label>
+                            <input type="text" id="pname" placeholder="Enter your Parent name here" name="Parent Name">
+                        </li>
+                        <li class="test">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email here" name="email">
+                        </li>
+
+                        <li class="test">
+                            <p>Which elementary schools do you live near?</p>
+
+
+                            <select class="flex-inner" name="school" id="school">
+                                <option value="0">None</option>
+                                <option value="1">AJ Katzenmaier</option>
+                                <option value="2">Howard A Yeager</option>
+                                <option value="3">Marjorie P Hart</option>
+                                <option value="4">North Elementary</option>
+                                <option value="5">South Elementary</option>
+                                <option value="6">AJ Katzenmaier</option>
+                                <option value="7">Greenbay</option>
+                                <option value="8">Howard A Yeager</option>
+                                <option value="9">Marjorie P Hartr</option>
+                                <option value="10">North Elementary</option>
+                                <option value="11">South Elementary</option>
+
+                            </select>
+
+                        </li>
+
+
+                        <li class="test">
+                            <p>What positions do you normally play</p>
+                            <ul class="flex-inner">
+
+
+                                <li>
+                                    <input type="checkbox" id="fw" name="position">
+                                    <label for="fw">Forward</label>
+                                </li>
+                                <li class="def">
+                                    <input type="checkbox" id="df" name="position">
+                                    <label for="df">Defence</label>
+                                </li>
+
+                                <li class="test">
+                                    <input type="checkbox" id="mdf" name="position">
+                                    <label for="mdf">Midfield</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="GK1" name="position">
+                                    <label for="GK1">GK</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="test">
+                            <p>What positions do you want to play?</p>
+                            <ul class="flex-inner">
+
+
+                                <li>
+                                    <input type="checkbox" id="Forward" name="position2">
+                                    <label for="Forward">Forward</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="Defence" name="position2">
+                                    <label for="Defence">Defence</label>
+                                </li>
+
+                                <li class="test">
+                                    <input type="checkbox" id="Midfield" name="position2">
+                                    <label for="Midfield">Midfield</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="GK" name="position2">
+                                    <label for="GK">GK</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="test">
+                            <p>Already Have a Uniform</p>
+
+
+
+                            <select class="flex-inner" id="uniform">
+                                <option value="none">None</option>
+                                <option value="volvo">Yes</option>
+                                <option value="saab">No</option>
+                            </select>
+
+
+                        </li>
+
+                        <li class="test">
+                            <p>Jersey Size</p>
+                            <ul class="flex-inner">
+                                <li class="test">
+                                    <input type="checkbox" id="xsmall1" name="size">
+                                    <label for="xsmall1">Youth Small</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="yMedium1" name="size">
+                                    <label for="xMedium1">Youth Medium</label>
+                                </li>
+
+                                <li class="test">
+                                    <input type="checkbox" id="xLarge1" name="size">
+                                    <label for="xLarge1">Youth Large</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="xSmall1" name="size">
+                                    <label for="xSmall1">Small</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="xMedium1" name="size">
+                                    <label for="xMedium1">Medium</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="xlarge1" name="size">
+                                    <label for="xlarge1">Large</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="xxl1" name="size">
+                                    <label for="xxl1">XL</label>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="test">
+                            <p>Short Size</p>
+                            <ul class="flex-inner">
+                                <li class="test">
+                                    <input type="checkbox" id="ysmall1" name="size1">
+                                    <label for="ysmall1">Youth Small</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="yoMedium1" name="size1">
+                                    <label for="yoMedium1">Youth Medium</label>
+                                </li>
+
+                                <li class="test">
+                                    <input type="checkbox" id="test" name="size1">
+                                    <label for="test">Youth Large</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="ySmall1" name="size1">
+                                    <label for="ySmall1">Small</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="yMedium2" name="size1">
+                                    <label for="yMedium2">Medium</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="ylarge1" name="size1">
+                                    <label for="ylarge1">Large</label>
+                                </li>
+                                <li class="test">
+                                    <input type="checkbox" id="yxl1" name="size1">
+                                    <label for="yxl1">XL</label>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="test">
+                            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                            Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                            accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                            employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                            on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                            sponsored activities, which transportation.
+                            By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                            cancellation policy and agree to its terms.</li>
+
+
+                        <li class="test">
+                            <label for="signature">Parent Name</label>
+                            <input type="text" id="pname" placeholder="Enter your parent's name here" name="parname">
+                        </li>
+                        <li class="test">
+                            <label for="sign_date">Date</label>
+                            <input type="date" id="sign_date" name="sign_date">
+                        </li>
+
+
+                        <li class="test">
+                            <button type="submit">Submit</button>
+
+                        </li>
+                    </ul>
+
+
+
+                </form>
+            </div>
+
+            <div class="box four">Registration Form</div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
